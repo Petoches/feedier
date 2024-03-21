@@ -31,4 +31,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    's3' => [
+        'feedback' => env('S3_FEEDBACK_IMPORT_URL', 'https://feedier-production.s3.eu-west-1.amazonaws.com/special/Reviews+Import.csv')
+    ]
 ];

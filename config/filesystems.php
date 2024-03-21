@@ -56,6 +56,11 @@ return [
             'throw' => false,
         ],
 
+        'external' => [
+            'driver' => 'local',
+            'root' => storage_path('app/external'),
+            'throw' => false,
+        ]
     ],
 
     /*

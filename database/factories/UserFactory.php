@@ -45,6 +45,15 @@ class UserFactory extends Factory
         });
     }
 
+    public function team($id): static
+    {
+        return $this->state(function (array $attributes) use ($id) {
+            return [
+                'current_team_id' => $id,
+            ];
+        });
+    }
+
     /**
      * Indicate that the user should have a personal team.
      */
