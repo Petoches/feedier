@@ -80,3 +80,14 @@ Once we receive your test, we will give you an answer within 2 days maximum and 
 ## Thanks a lot !
 #### Thank you for your time invested at Feedier, we hope to see you with us very soon!
 
+## New 
+#### Seed database
+```shell
+php artisan db:seed
+```
+now you have a user in 'staff team' admin@feedier.com => password
+
+#### Check tests
+```shell
+php artisan test
+```
